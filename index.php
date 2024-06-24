@@ -209,7 +209,7 @@ class BcanimsitionSettings {
 				printf(
 					'<div style="display:inline-block; text-align:center; margin:5px;" class="gif_page_transition" data-transition="%s" data-gif="%s"><br>%s</div>',
 					$key,
-					plugin_dir_url( DIR_COMPONENT .  '/bweb_component_functions/' ) .'component/animsition/assets/gif_transition/'.$key.'.gif',
+					plugin_dir_url( DIR_COMPONENT .  '/bweb_component_functions/' ) .'animsition/assets/gif_transition/'.$key.'.gif',
 					$value
 				);
 			endforeach;
